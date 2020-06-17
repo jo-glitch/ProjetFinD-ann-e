@@ -40,7 +40,3 @@ function draw() {
 
 // Loop the animation
 setInterval(draw, 70);
-
-/**
- * RIGHT CANVAS
- */

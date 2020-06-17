@@ -1,0 +1,321 @@
+/* Définition des polices pesonnalisées situées dans le dossier polices.*/
+@font-face
+{
+   font-family: 'VCROSDMONO';
+   src: url(../assets/font/VCROSDMONO.001.ttf);
+   
+}
+
+body
+{
+    background: #000;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+p
+{
+    font-size: 18px;
+}
+h1, h2, h3, h4, h5
+{
+    text-transform: uppercase;
+}
+h1, h2, h3, h4, h5, p, a
+{
+    color: #34ff1a;
+    font-family: 'VCROSDMONO';
+}
+/* page accueil */
+/* NAVBAR */
+header
+{
+    width: 100%; 
+    height: 10%;
+    margin: auto;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: -640px;
+}
+header nav
+{
+    width: 100%;
+}
+header nav ul
+{
+    /* border: 1px solid red; */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+/* header .canvas_left, header .canvas_right
+{
+    border: 1px solid blue;
+} */
+/* header nav ul li{
+    border :1px solid blue;
+} */
+header nav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+/* 
+** CSS ACCEUIL
+*/
+/* Section Main Laylow */
+.main
+{
+    /* border: 1px solid green; */
+    /* margin-top: 1000px; */
+    width: 55%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.main .mainContent
+{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main .mainContent .mainContentImage
+{
+    width: 60%;
+    /* border: 1px solid blue; */
+}
+.main .mainContent .mainContentImage img
+{
+    height: 100%;
+    width: 80%;
+}
+.main h1
+{
+    text-transform: uppercase;
+}
+
+/* Section Bio */
+
+.bioContent
+{
+    /* border: 1px solid green; */
+    text-align: center;
+    margin-bottom: 200px;
+}
+.bioContent h3
+{
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.bioContent .contentTxtBio
+{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.bioContent .contentTxtBio .txtBio
+{
+    /* border: 1px solid blue; */
+    width: 35%;
+    font-size: 18px;
+}
+
+/* SECTION CD */
+.cdContent
+{
+    /* border: 1px solid green; */
+    text-align: center;
+    margin-bottom: 200px;
+}
+.cdContent h2
+{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.cdContent .cdImageContent
+{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cdContent .cdImageContent .cdContentImage
+{
+    /* border: 1px solid blue; */
+    width: 50%
+}
+.cdContent .cdImageContent img
+{
+    height: 100%;
+    width: 100%;
+}
+
+/* SECTION TOURNÉE */
+
+.tourneeContent
+{
+    /* border: 1px solid green; */
+    text-align: center;
+    margin-bottom: 200px;
+}
+.tourneeContent h2
+{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.tourneeContent .tourneeImageContent
+{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.tourneeContent .tourneeImageContent .tourneeContentImage
+{
+    /* border: 1px solid blue; */
+    width: 50%
+}
+.tourneeContent .tourneeImageContent .tourneeContentImage img
+{
+    height: 80%;
+    width: 80%;
+}
+/* FOOTER */
+.footer
+{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content:center; 
+}
+.footer .footerContent
+{
+    /* border: 1px solid red; */
+    width: 65%;
+    display: flex;
+    justify-content: center;
+}
+.footer .footerContent .footerContentLogo
+{
+    /* border: 1px solid blue; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .footerContent .footerContentLogo img
+{
+    height: 70%;
+}
+
+/* 
+** CSS ALBUM
+*/
+/* SECTION DESCRIPTION DE L'ALBUM */
+.desAlbum
+{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+}
+.desAlbum .contentDesAlbum
+{
+    /* border: 1px solid blue; */
+    width: 70%;
+    text-align: justify;
+}
+.desAlbum .contentDesAlbum .sitation
+{
+    display: block;
+    text-align: right;
+    margin-right: 15px;
+}
+/* IMAGE POCHETTE DE L'ALBUM */
+.jacketTrinity
+{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.jacketTrinity .contentJacketTrinity
+{
+    /* border: 1px solid blue; */
+    width: 80%;
+}
+.jacketTrinity .contentJacketTrinity .contentJacketTrinityImg 
+{
+    /* border: 1px solid white; */
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 80%;
+}
+.jacketTrinity .contentJacketTrinity .contentJacketTrinityImg img
+{
+    height: 80%;
+    width: 90%;
+    /* border: 1px solid green; */
+}
+.jacketTrinity .contentJacketTrinity h2
+{
+    /* border: 1px solid yellow; */
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -110px;
+}
+/* 
+** CSS TOURNÉE
+*/
+/* SECTION INFO */
+.information
+{
+    margin-bottom: 200px;
+}
+.information .contentInfo
+{
+    /* border: 1px solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.information .contentInfo .infoContent
+{
+    /* border: 1px solid red; */
+    width: 55%;
+}
+.information .contentInfo .infoContent .titleInfo
+{
+    font-size: 22px;
+    border-bottom: 1px solid #34ff1a;
+}
+/* SECTION BUY PLACE */
+
+.buyPlace
+{
+    /* border: 1px solid green; */
+    margin-bottom: 100px;
+}
+.buyPlace .contentBuyPlace
+{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center
+}
+.buyPlace .contentBuyPlace .imageTitle
+{
+    /* border: 1px solid blue; */
+    text-align: center;
+    /* height: 60% */
+}
+.buyPlace .contentBuyPlace .imageTitle img
+{
+    height: 60%;
+}

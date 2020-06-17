@@ -1,0 +1,10 @@
+@media screen and (max-width: 600px)
+{
+    .footer .footerContent{
+        width: 65%;
+    }
+    .footer .footerContent .footerContentLogo img
+    {
+    height: 60%;
+    }
+}

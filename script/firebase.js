@@ -1,13 +1,13 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyDS5_a2NaZkD2EJrc_8T9jLxl_wW3jVwMs",
-    authDomain: "projetcours-c393f.firebaseapp.com",
-    databaseURL: "https://projetcours-c393f.firebaseio.com",
-    projectId: "projetcours-c393f",
-    storageBucket: "projetcours-c393f.appspot.com",
-    messagingSenderId: "244990817381",
-    appId: "1:244990817381:web:40deb275741178208fc28c",
-    measurementId: "G-22XNPMH0Z9"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
+  apiKey: "AIzaSyDMCq4n6mcNmGKeajvFbkxPdHOEF3k3BFw",
+  authDomain: "laylowprojet.firebaseapp.com",
+  databaseURL: "https://laylowprojet.firebaseio.com",
+  projectId: "laylowprojet",
+  storageBucket: "laylowprojet.appspot.com",
+  messagingSenderId: "624705142317",
+  appId: "1:624705142317:web:65526c356d5c436a7a82a4",
+  measurementId: "G-XF6P962R0Q"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+firebase.analytics();

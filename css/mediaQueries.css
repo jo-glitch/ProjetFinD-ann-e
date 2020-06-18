@@ -1,8 +1,9 @@
 @media screen and (max-width: 900px)
 {
-    /* canvas{
-        /* display: none; 
-    } */
+    .canvas_left, .canvas_right{
+        width: 75px; 
+        height: 800px;
+    }
     .footer .footerContent{
         width: 65%;
     }

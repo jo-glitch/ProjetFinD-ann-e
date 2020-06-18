@@ -1,7 +1,7 @@
 @media screen and (max-width: 900px)
 {
     .canvas_left, .canvas_right{
-        width: 75px; 
+        width: 200px; 
         height: 800px;
     }
     .footer .footerContent{
@@ -10,5 +10,114 @@
     .footer .footerContent .footerContentLogo img
     {
     height: 60%;
+    }
+}
+@media screen and (max-width: 750px)
+{
+    /* HEADER */
+    header nav ul li a
+    {
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    }
+    .canvas_left, .canvas_right{
+        width: 100px; 
+        height: 800px;
+    }
+    /* BIOGRAPHIE */
+    .bioContent .contentTxtBio .txtBio
+    {
+        width: 60%;
+        
+    }
+    .bioContent .contentTxtBio .txtBio p
+    {
+        font-size: 16px;
+    }
+    /* CD*/
+    .cdContent
+    {
+        /* border: 1px solid green; */
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    /* Tournee */
+    .tourneeContent
+    {
+        /* border: 1px solid green; */
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    /* CSS ALBUM */
+    /* description */
+    .desAlbum .contentDesAlbum
+    {
+        /* border: 1px solid blue; */
+        width: 60%;
+        text-align: justify;
+    }
+    .desAlbum .contentDesAlbum p 
+    {
+        font-size: 16px;
+    }
+    
+}
+@media screen and (max-width: 625px)
+{
+    .linkPlaylist iframe
+{
+    width: 250px;
+    height: 400px;
+}
+}
+@media screen and (max-width: 550px)
+{
+    /* HEADER */
+    .canvas_left, .canvas_right{
+        width: 50px; 
+        height: 800px;
+    }
+     /* MAIN */
+     .main h1
+     {
+         font-size: 24px;
+     }
+     /* BIOGRAPHIE */
+     .bioContent h2
+    {
+        font-size: 20px;
+    }
+    .bioContent .contentTxtBio .txtBio
+    {
+        width: 70%
+    }
+    .bioContent .contentTxtBio .txtBio p
+    {
+        font-size: 14px;
+    }
+    /* FOOTER */
+    .footer .footerContent .footerContentLogo img
+    {
+        height: 40%;
+    }
+    /* CSS ALBUM */
+    /* description */
+    .desAlbum .contentDesAlbum
+    {
+        /* border: 1px solid blue; */
+        width: 70%;
+        text-align: justify;
+    }
+    .desAlbum .contentDesAlbum p 
+    {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 350px)
+{
+    .bioContent .contentTxtBio .txtBio
+    {
+        width: 60%
     }
 }

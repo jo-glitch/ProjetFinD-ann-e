@@ -11,6 +11,32 @@
     {
     height: 60%;
     }
+    .jacketTrinity .contentJacketTrinity h2
+    {
+        /* border: 1px solid yellow; */
+        font-size: 20px;
+        margin-top: -40px;
+    }
+}
+@media screen and (max-width: 810px)
+{
+    .information .contentInfo
+    {
+        /* border: 1px solid blue; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .information .contentInfo .infoContent
+    {
+        /* border: 1px solid red; */
+        width: 45%;
+    }
+    .information .contentInfo .infoContent p
+    {
+        /* border: 1px solid red; */
+        font-size: 18px;
+    }
 }
 @media screen and (max-width: 750px)
 {
@@ -61,15 +87,57 @@
     {
         font-size: 16px;
     }
-    
+    .information .contentInfo .infoContent
+    {
+        /* border: 1px solid red; */
+        width: 60%;
+    }
+    /* Billeterie section cover */
+    .imageCover .contentCover .coverContent
+    {
+        /* border: 1px solid blue; */
+        width: 75%;
+    }
 }
 @media screen and (max-width: 625px)
 {
+    /* Main */
+    .main .mainContent .mainContentImage
+    {
+        width: 80%;
+        /* border: 1px solid blue; */
+    }
+    .jacketTrinity .contentJacketTrinity h2
+    {
+        /* border: 1px solid yellow; */
+        font-size: 18px;
+        margin-top: -30px;
+    }
+    /* playlist */
     .linkPlaylist iframe
-{
-    width: 250px;
-    height: 400px;
-}
+    {
+        width: 250px;
+        height: 400px;
+    }
+    /* buy place */
+    .buyPlace
+    {
+        margin-bottom: 200px;
+    }
+    .buyPlace .contentBuyPlace .imageTitle a
+    {
+        font-size: 10px;
+    } 
+    .buyPlace .contentBuyPlace .imageTitle a img
+    {
+        width: 60%;
+        height: 85%;
+    } 
+    .buyPlace .contentBuyPlace .imageTitle img
+    {
+        width: 60%;
+        height: 90%;
+    } 
 }
 @media screen and (max-width: 550px)
 {
@@ -83,6 +151,11 @@
      {
          font-size: 24px;
      }
+     .main .mainContent .mainContentImage
+    {
+        width: 95%;
+        /* border: 1px solid blue; */
+    }
      /* BIOGRAPHIE */
      .bioContent h2
     {
@@ -113,6 +186,18 @@
     {
         font-size: 14px;
     }
+    .jacketTrinity .contentJacketTrinity h2
+    {
+        /* border: 1px solid yellow; */
+        font-size: 14px;
+        margin-top: -20px;
+    }
+     /* Billeterie section cover */
+     .imageCover .contentCover .coverContent
+     {
+         /* border: 1px solid blue; */
+         width: 85%;
+     }
 }
 @media screen and (max-width: 350px)
 {

@@ -319,3 +319,30 @@ header nav ul li a
 {
     height: 60%;
 }
+/*
+** CSS BILLETERIE
+*/
+.imageCover
+{
+    margin-top: -200px;
+    margin-bottom: 50px;
+    /* border: 1px solid white; */
+}
+.imageCover .contentCover
+{
+    text-align: center;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+}
+.imageCover .contentCover .coverContent
+{
+    /* border: 1px solid blue; */
+    width: 80%;
+}
+.imageCover .contentCover .coverContent img
+{
+    /* border: 1px solid red; */
+    width: 70%;
+    height: 85%;
+}

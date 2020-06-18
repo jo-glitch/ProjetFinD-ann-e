@@ -346,3 +346,35 @@ header nav ul li a
     width: 70%;
     height: 85%;
 }
+.informationBilleterie
+{
+    height: 200px;
+    margin-bottom: 150px;
+    /* border: 1px solid white */
+}
+.informationBilleterie .contentInfoBilleterie
+{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+.informationBilleterie .contentInfoBilleterie .infoBilleterieContent
+{
+    /* border: 1px solid blue; */
+    text-align: center;
+}
+.informationBilleterie .contentInfoBilleterie .infoBilleterieContent .first
+{
+    margin-bottom: 60px;
+}
+.informationBilleterie .contentInfoBilleterie .infoBilleterieContent a
+{
+    text-decoration: none;
+    border: 1px solid #34ff1a;
+    background-color: #34ff1a;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    text-transform: uppercase;
+    font-size: 35px;
+}

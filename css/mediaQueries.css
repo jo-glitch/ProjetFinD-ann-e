@@ -1,7 +1,7 @@
 @media screen and (max-width: 900px)
 {
     /* canvas{
-        width: 75px;
+        /* display: none; 
     } */
     .footer .footerContent{
         width: 65%;

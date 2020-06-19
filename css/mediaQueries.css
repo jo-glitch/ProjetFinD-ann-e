@@ -138,6 +138,18 @@
         width: 60%;
         height: 90%;
     } 
+    .informationBilleterie .contentInfoBilleterie .infoBilleterieContent
+    {
+        
+        width: 60%;
+        /* border: 1px solid blue; */
+        text-align: center;
+    }
+    .informationBilleterie .contentInfoBilleterie .infoBilleterieContent h2,
+    .informationBilleterie .contentInfoBilleterie .infoBilleterieContent a
+    {
+        font-size: 20px;
+    }
 }
 @media screen and (max-width: 550px)
 {
@@ -198,11 +210,34 @@
          /* border: 1px solid blue; */
          width: 85%;
      }
+     .imageCover .contentCover .coverContent h2
+    {
+        font-size: 20px;
+    }
+     .informationBilleterie .contentInfoBilleterie .infoBilleterieContent
+    {
+        
+        width: 75%;
+        /* border: 1px solid blue; */
+        text-align: center;
+    }
 }
 @media screen and (max-width: 350px)
 {
     .bioContent .contentTxtBio .txtBio
     {
         width: 60%
+    }
+    .informationBilleterie .contentInfoBilleterie .infoBilleterieContent
+    {
+        
+        width: 60%;
+        /* border: 1px solid blue; */
+        text-align: center;
+    }
+    .informationBilleterie .contentInfoBilleterie .infoBilleterieContent h2,
+    .informationBilleterie .contentInfoBilleterie .infoBilleterieContent a
+    {
+        font-size: 18px;
     }
 }

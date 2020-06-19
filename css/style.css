@@ -363,8 +363,9 @@ header nav ul li a
 .informationBilleterie
 {
     height: 200px;
-    margin-bottom: 150px;
+    /* margin-bottom: 150px; */
     /* border: 1px solid white */
+    margin-bottom: 100px;
 }
 .informationBilleterie .contentInfoBilleterie
 {

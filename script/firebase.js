@@ -10,4 +10,23 @@ var firebaseConfig = {
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
-firebase.analytics();
+
+// Login
+document.querySelector("#sub").addEventListener("click", function (event) {
+    event.preventDefault()
+    let email = document.querySelector("#email").value
+    let password = document.querySelector("#password").value
+    console.log(email)
+    console.log(password)
+    firebase.auth().setPersistence(firebase.auth.Auth.Persistence.SESSION)
+        .then(function () {
+            return firebase.auth().signInWithEmailAndPassword(email, password)
+                .then(function () {
+                    alert("Vous êtes connecté")
+                    location.assign("admin.html")
+                })
+        })
+        .catch(function (error) {
+            console.log(error.code, error.message)
+        })
+})
